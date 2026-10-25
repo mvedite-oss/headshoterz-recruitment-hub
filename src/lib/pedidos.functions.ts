@@ -4,7 +4,7 @@ import { z } from "zod";
 const senhaSchema = z.object({ senha: z.string().max(100) });
 
 function verificarSenha(senha: string) {
-  const correta = process.env.ADMIN_PASSWORD || "lobao123";
+  const correta = process.env["ADMIN_PASSWORD"] || "lobao123";
   if (senha !== correta) throw new Error("Senha incorreta.");
 }
 
