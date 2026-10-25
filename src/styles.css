@@ -177,7 +177,7 @@ button{font:inherit}
 @keyframes pulsar { 50% { opacity: 0.45; transform: translateX(-50%) scale(1.08); } }
 
 /* ---------- Layout ---------- */
-.container { width: 100%; max-width: 480px; margin: 0 auto; padding: 32px 18px 48px; }
+.hs-container { width: 100%; max-width: 480px; margin: 0 auto; padding: 32px 18px 48px; }
 .tela { display: none; animation: entrar 0.45s ease; }
 .tela.ativa { display: block; }
 #tela-painel { max-width: 100%; }
@@ -327,8 +327,8 @@ input:focus, select:focus { border-color: var(--red); box-shadow: 0 0 0 3px var(
 .vazio { text-align: center; color: var(--muted); padding: 30px 0; }
 
 @media (min-width: 720px) {
-  .container { max-width: 520px; }
-  .container:has(#tela-painel.ativa) { max-width: 960px; }
+  .hs-container { max-width: 520px; }
+  .hs-container:has(#tela-painel.ativa) { max-width: 960px; }
   .stats { grid-template-columns: repeat(4, 1fr); }
   .lista { grid-template-columns: repeat(2, 1fr); }
   #btn-sair { max-width: 280px; margin: 0 auto; }
