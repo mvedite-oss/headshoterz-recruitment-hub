@@ -72,7 +72,7 @@ Faz um site que tem.  Crie um site completo e responsivo para recrutamento de um
 
    - Ícone de cadeado, título "LOGIN DO ADMIN", campo de senha, botões "ENTRAR" e "CANCELAR".
 
-   - Animação de shake caso a senha esteja errada. Senha correta: "lobao123".
+   - Animação de shake caso a senha esteja errada. Senha correta: "
 
 
 
